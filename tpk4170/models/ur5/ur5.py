@@ -1,10 +1,11 @@
-import sys
+import site
 from pythreejs import Object3D, AxesHelper
 import numpy as np
 
 from tpk4170.models import ColladaMesh
 from tpk4170.utils.transformations import quaternion_from_matrix
 
+dae_path = site.USER_BASE + '/share/tpk4170/models/ur5/visual/'
 
 class Link(Object3D):
     def __init__(self):
@@ -13,10 +14,6 @@ class Link(Object3D):
     def __call__(self, trf):
         self.quaternion = quaternion_from_matrix(trf).tolist()
         self.position = (trf[:3, 3]).tolist()
-
-
-dae_path = sys.prefix + '/share/tpk4170/models/ur5/visual/'
-
 
 class BaseLink(Link):
     def __init__(self):
