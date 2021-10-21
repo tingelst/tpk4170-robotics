@@ -1,5 +1,6 @@
 # TPK4170 Robotics
 
+Python code accompanying the course TPK4170 Robotics at MTP, NTNU, Trondheim, Norway.
 
 ## Installation
 
