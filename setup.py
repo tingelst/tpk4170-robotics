@@ -36,7 +36,7 @@ setup(
     ],
     data_files=[
         (
-            "share/tpk4170/models/ur5/visual/",
+            "share/tpk4170/models/ur5/visual",
             [
                 "tpk4170/models/ur5/visual/base.dae",
                 "tpk4170/models/ur5/visual/forearm.dae",
