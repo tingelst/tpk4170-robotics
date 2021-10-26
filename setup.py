@@ -30,6 +30,7 @@ setup(
         "matplotlib>=3.0.0",
         "pycollada>=0.4.1",
         "pythreejs>=2.0.0",
+        "jupyter-client==7.0.6",
         "sympy",
         "transformations",
         "modern_robotics",
