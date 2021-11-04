@@ -48,6 +48,18 @@ setup(
                 "tpk4170/models/ur5/visual/wrist3.dae",
             ],
         ),
+        (
+            "share/tpk4170/models/kr6r900sixx/visual/",
+            [
+                "tpk4170/models/kr6r900sixx/visual/base_link.dae",
+                "tpk4170/models/kr6r900sixx/visual/link_1.dae",
+                "tpk4170/models/kr6r900sixx/visual/link_2.dae",
+                "tpk4170/models/kr6r900sixx/visual/link_3.dae",
+                "tpk4170/models/kr6r900sixx/visual/link_4.dae",
+                "tpk4170/models/kr6r900sixx/visual/link_5.dae",
+                "tpk4170/models/kr6r900sixx/visual/link_6.dae",
+            ],
+        ),
     ],
     classifiers=[
         "Programming Language :: Python :: 3",

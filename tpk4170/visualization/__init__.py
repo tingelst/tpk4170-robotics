@@ -12,4 +12,4 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 from .viewer import Viewer
-from .visualization import Ur5Visualizer, Visualizer
+from .visualization import Kr6R900SixxVisualizer, Ur5Visualizer, Visualizer
