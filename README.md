@@ -24,9 +24,18 @@ Python code accompanying the course TPK4170 Robotics at MTP, NTNU, Trondheim, No
    pip install .
    ```
 
-4. Run an example notebook:
+4. Run an example notebook visualizing the UR5 robot:
 
    ```bash
    cd examples
    jupyter notebook ur5_visualizer.ipynb
    ```
+
+5. Run an example notebook visualizing the KUKA Agilus robot:
+
+   ```bash
+   cd examples
+   jupyter notebook kr6_visualizer.ipynb
+   ```
+
+   
