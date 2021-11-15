@@ -20,7 +20,7 @@ class Link(Object3D):
         self.position = (trf[:3, 3]).tolist()
 
 
-dae_path = sys.prefix + "/share/tpk4170/models/kr6r900sixx/visual"
+dae_path = sys.prefix + "/share/tpk4170/models/kr6r900sixx/visual/"
 
 
 class BaseLink(Link):
