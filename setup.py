@@ -49,7 +49,7 @@ setup(
             ],
         ),
         (
-            "share/tpk4170/models/kr6r900sixx/visual/",
+            "share/tpk4170/models/kr6r900sixx/visual",
             [
                 "tpk4170/models/kr6r900sixx/visual/base_link.dae",
                 "tpk4170/models/kr6r900sixx/visual/link_1.dae",
